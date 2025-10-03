@@ -5,8 +5,8 @@ weak-model: gpt-3.5-turbo
 stream: false
 
 # 동적 토큰 설정 (LLM-Proxy에서 가져옴)
-map-tokens: 3072
-max-chat-history-tokens: 6144
+map-tokens: 1024
+max-chat-history-tokens: 2048
 edit-format: diff
 auto-commits: true
 dirty-commits: false
