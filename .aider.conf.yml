@@ -1,7 +1,7 @@
 model: gpt-4o
 openai-api-base: http://localhost:8001/v1
-openai-api-key: dummy-key
-weak-model: gpt-3.5-turbo
+openai-api-key: llm-proxy-admin-key-3b694ccff26ffdc61f7ed40b02988f0a
+weak-model: claude-3-5-sonnet-20241022
 stream: false
 
 # 동적 토큰 설정 (LLM-Proxy에서 가져옴)
